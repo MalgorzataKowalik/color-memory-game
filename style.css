@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+div {
+    flex-basis: 16.2%;
+    height: 32.4vh;
+}
+
+@media (orientation: portrait) {
+    div {
+        flex-basis: 32.4%;
+        height: 16.2vh;
+    }
+}
+
+.crimson {
+    background-color: crimson;
+}
+.darkmagenta {
+    background-color: darkmagenta;
+}
+.orange {
+    background-color: orange;
+}
+.deeppink {
+    background-color: deeppink;
+}
+.chartreuse {
+    background-color: chartreuse;
+}
+.cornflowerblue {
+    background-color: cornflowerblue;
+}
+.cadetblue {
+    background-color: cadetblue;
+}
+.olive {
+    background-color: olive;
+}
+.plum {
+    background-color: plum;
+}
+
+.guessed {
+    background-color: #ddd;
+}
+
+.hidden {
+    background-color: #222;
+}
+
